@@ -131,6 +131,7 @@
             this.btnReadFileSelect.TabIndex = 1;
             this.btnReadFileSelect.Text = "파일 선택";
             this.btnReadFileSelect.UseVisualStyleBackColor = true;
+            this.btnReadFileSelect.Click += new System.EventHandler(this.btnReadFileSelect_Click);
             // 
             // btnReadText
             // 
@@ -140,6 +141,7 @@
             this.btnReadText.TabIndex = 2;
             this.btnReadText.Text = "불러오기";
             this.btnReadText.UseVisualStyleBackColor = true;
+            this.btnReadText.Click += new System.EventHandler(this.btnReadText_Click);
             // 
             // txtReadText
             // 
@@ -174,8 +176,9 @@
             this.btnWriteText.Name = "btnWriteText";
             this.btnWriteText.Size = new System.Drawing.Size(75, 23);
             this.btnWriteText.TabIndex = 2;
-            this.btnWriteText.Text = "불러오기";
+            this.btnWriteText.Text = "저장하기";
             this.btnWriteText.UseVisualStyleBackColor = true;
+            this.btnWriteText.Click += new System.EventHandler(this.btnWriteText_Click);
             // 
             // btnWriteFileSelect
             // 
@@ -185,6 +188,7 @@
             this.btnWriteFileSelect.TabIndex = 3;
             this.btnWriteFileSelect.Text = "파일 선택";
             this.btnWriteFileSelect.UseVisualStyleBackColor = true;
+            this.btnWriteFileSelect.Click += new System.EventHandler(this.btnWriteFileSelect_Click);
             // 
             // FormFile
             // 
